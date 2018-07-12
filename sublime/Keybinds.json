@@ -1,0 +1,6 @@
+[
+    { "keys": ["super+shift+w"], "command": "close_all" },
+    { "keys": ["super+k"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["super+shift+e"], "command": "toggle_side_bar" },
+    { "keys": ["super+shift+e+k+k+k+k+k"], "command": "slurp_replace_string" },
+]

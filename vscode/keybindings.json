@@ -1,0 +1,53 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "alt+cmd+b",
+    "command": "phpformatter.fix"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.quickOpenTerm"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "shift+cmd+u shift+cmd+g",
+    "command": "gitlens.showCommitSearch",
+    "when": "gitlens:enabled"
+  },
+  {
+    "key": "shift+alt+7",
+    "command": "-gitlens.showCommitSearch",
+    "when": "gitlens:enabled"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "cmd+[Semicolon] cmd+[Semicolon]",
+    "command": "gitlens.showCommitSearch",
+    "when": "gitlens:enabled && gitlens:keymap == 'standard'"
+  },
+  {
+    "key": "shift+alt+7",
+    "command": "-gitlens.showCommitSearch",
+    "when": "gitlens:enabled && gitlens:keymap == 'standard'"
+  },
+  {
+    "key": "alt+enter",
+    "command": "editor.action.showContextMenu",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+f10",
+    "command": "-editor.action.showContextMenu",
+    "when": "editorTextFocus"
+  }
+]
